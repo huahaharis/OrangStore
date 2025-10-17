@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+/* Optional global styles */
+html,
+body {
+  @apply bg-white text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
+
+.dark {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Example container utility */
+.container {
+  @apply mx-auto px-4;
+}
+
+/* Loading spinner example (optional) */
+.loading-spinner {
+  @apply w-6 h-6 border-4 border-t-transparent border-blue-500 rounded-full animate-spin;
+}
